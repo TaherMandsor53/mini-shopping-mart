@@ -6,7 +6,7 @@ export default function CardComponent(props) {
 
   return (
     <div className="card-details" key={key}>
-      <a href={`/product-details/${cardData?.id}`} target="_blank" rel="noreferrer">
+      <a href={`/product-details/${cardData?.id}`} rel="noreferrer">
         <img src={cardData?.image} alt="card-img" className="card-img" />
         <h3>{cardData?.title}</h3>
         <p>{cardData?.description}</p>
