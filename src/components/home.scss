@@ -1,3 +1,9 @@
 .home-details {
   margin: 50px 0;
+  .card-comp {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    gap: 30px;
+  }
 }

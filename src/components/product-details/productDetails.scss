@@ -1,0 +1,16 @@
+.product-details {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 2px solid #cccccc;
+  padding: 20px;
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  .product-image {
+    width: 320px;
+    height: 300px;
+  }
+  .product-info {
+    text-align: left;
+  }
+}
